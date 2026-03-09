@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    width: 350px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.search-form input{
+    padding:10px;
+    width:200px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.search-form button{
+    padding:10px 15px;
+    border:none;
+    background:#007bff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.weather-card{
+    margin-top:20px;
+    background:#f4f4f4;
+    padding:20px;
+    border-radius:10px;
+}
+
+.error{
+    color:red;
+}
