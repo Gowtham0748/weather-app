@@ -19,4 +19,4 @@ A weather web application that fetches real-time weather data using the OpenWeat
 1. Clone the repo
 2. Install dependencies
 3. Add `.env` file with API key
-4. Run `node app.js`
+4. Run `node index.js`
